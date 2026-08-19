@@ -1,0 +1,6 @@
+[submodule "components/QC6490"]
+	path = components/QC6490
+	url = https://github.com/rubikpi-dev/windows_silicon_qcom_kodiak_iot
+[submodule "components/Devices/RUBIKPi3"]
+	path = components/Devices/RUBIKPi3
+	url = https://github.com/rubikpi-dev/windows_oem_thundercomm_rubikpi3
