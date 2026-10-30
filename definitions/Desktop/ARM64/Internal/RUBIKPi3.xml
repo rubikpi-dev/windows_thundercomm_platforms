@@ -44,7 +44,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge6490.inf" ID="qcrmnetbridge6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm6490.inf" ID="qcthermalmdm6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\GPS" Name="qcgnss6490.inf" ID="qcgnss6490"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Graphics\DXKM\Desktop" Name="qcdx6490.inf" ID="qcdx6490"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Graphics\DXKM\Desktop" Name="qcdx6490.inf" ID="qcdx6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer6490.inf" ID="HalExtQCWdogTimer6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Sensors\SSC" Name="qcSensors.inf" ID="qcSensors"/>
