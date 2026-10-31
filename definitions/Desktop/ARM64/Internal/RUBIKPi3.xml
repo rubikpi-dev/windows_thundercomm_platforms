@@ -1,8 +1,6 @@
 <FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
     <Drivers>
         <BaseDriverPackages>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Audio\ADCM" Name="qcadcm6490.inf" ID="qcadcm6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Audio\AudMiniport\IOT" Name="qcaudminiport_apo6490.inf" ID="qcaudminiport_apo6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Audio\AudMiniport\IOT" Name="qcaudminiport_Base6490.inf" ID="qcaudminiport_Base6490"/>
