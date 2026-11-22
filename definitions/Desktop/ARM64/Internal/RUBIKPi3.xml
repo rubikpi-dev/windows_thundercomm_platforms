@@ -1,6 +1,12 @@
 <FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
     <Drivers>
         <BaseDriverPackages>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Drivers\WLAN" Name="ap6256.inf" ID="ap6256"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Drivers\WLAN" Name="ap6256bt.inf" ID="ap6256bt"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Drivers\WLAN" Name="ap6256fn.inf" ID="ap6256fn"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Drivers\Audio\Codec" Name="ES8316.inf" ID="ES8316"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Drivers\Fan" Name="RubikFan.inf" ID="RubikFan"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Drivers\Graphics\OEMBridge" Name="OEMBridge.inf" ID="OEMBridge"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Audio\ADCM" Name="qcadcm6490.inf" ID="qcadcm6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Audio\AudMiniport\IOT" Name="qcaudminiport_apo6490.inf" ID="qcaudminiport_apo6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\Audio\AudMiniport\IOT" Name="qcaudminiport_Base6490.inf" ID="qcaudminiport_Base6490"/>
@@ -91,9 +97,9 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\WLAN\Core\Desktop" Name="qcwlan6490.inf" ID="qcwlan6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\WLAN\Core\Phone" Name="qcwlan6490.inf" ID="qcwlan6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Drivers\WLAN\SleepMgr" Name="qcWlanSleepMgr6490.inf" ID="qcWlanSleepMgr6490"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Extensions\Audio\ACDB\IOT" Name="qcacsp_iot6490.inf" ID="qcacsp_iot6490"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Extensions\Audio\AudMiniport\IOT" Name="qcaudminiportIOT_Extension6490.inf" ID="qcaudminiportIOT_Extension6490"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Extensions\Audio\Device\IOT" Name="qcaucd_ext_IOT6490.inf" ID="qcaucd_ext_IOT6490"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Platform\Extensions\Audio\ACDB\IOT" Name="qcacsp_iot6490.inf" ID="qcacsp_iot6490"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Platform\Extensions\Audio\AudMiniport\IOT" Name="qcaudminiportIOT_Extension6490.inf" ID="qcaudminiportIOT_Extension6490"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\RUBIKPi3\Platform\Extensions\Audio\Device\IOT" Name="qcaucd_ext_IOT6490.inf" ID="qcaucd_ext_IOT6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext6490.inf" ID="QCListenSM_swc_ext6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="QCListenSM6490.inf" ID="QCListenSM6490"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC6490\Extensions\Camera\AuxiliarySensor" Name="qccamauxsensor_extension6490.inf" ID="qccamauxsensor_extension6490"/>
